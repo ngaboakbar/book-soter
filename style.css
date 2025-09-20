@@ -1,0 +1,33 @@
+* { 
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box; 
+}
+
+
+    body {
+      height:100vh;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      background:#f5f5f5;
+      font-family: Arial, Helvetica, sans-serif;
+      color:#333;
+      text-align:center;
+      padding:0 20px;
+    }
+
+    h1 {
+      font-size:3rem;
+      margin-bottom:1rem;
+      color:#2c3e50;
+      background-color: aquamarine;
+    }
+
+    p {
+      font-size:1.25rem;
+      max-width:600px;
+      line-height:1.6;
+      color:#555;
+    }
